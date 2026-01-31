@@ -1,5 +1,5 @@
 import 'package:rp_generated_dart/rp_generated_dart.dart';
-import 'package:rp_utils_dart/src/rp_utils_version.dart';
+import 'package:rp_utils_dart/src/models/rp_utils_version.dart';
 import 'package:uuid/uuid.dart';
 
 abstract class RPUtils {
