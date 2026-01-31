@@ -1,0 +1,19 @@
+name: rp_utils_dart
+description: "Render Protocol utils for internal dart packages"
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  uuid: ^4.5.2
+  rp_generated_dart:
+    git:
+      url: https://github.com/renderprotocol/rp_generated_dart.git
+      ref: main
+
+# dev_dependencies:
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
