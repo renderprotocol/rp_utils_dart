@@ -36,10 +36,10 @@ extension RPStackMakeWidget on RPStack {
   }
 }
 
-extension RPScrollViewMakeWidget on RPScrollView {
+extension RPScrollableMakeWidget on RPScrollable {
   RPWidget makeWidget() {
     final widget = RPUtils.makeWidgetWithID();
-    widget.scrollView = this;
+    widget.scrollable = this;
     return widget;
   }
 }

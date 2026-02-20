@@ -239,14 +239,14 @@ extension RPWidgetModifiers on RPWidget {
     return detector.makeWidget();
   }
 
-  // MARK: - Scroll View
+  // MARK: - Scrollable
 
-  /// Wraps this widget in an RPScrollView.
+  /// Wraps this widget in an RPScrollable.
   RPWidget scrollable({RPAxis axis = RPAxis.RP_AXIS_VERTICAL, bool showsIndicators = true}) {
-    final scrollView = RPScrollView();
-    scrollView.child = this;
-    scrollView.axis = axis;
-    scrollView.showsIndicators = showsIndicators;
-    return scrollView.makeWidget();
+    final scrollable = RPScrollable();
+    scrollable.child = this;
+    scrollable.axis = axis;
+    scrollable.showsIndicators = showsIndicators;
+    return scrollable.makeWidget();
   }
 }
